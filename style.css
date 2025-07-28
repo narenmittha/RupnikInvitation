@@ -1,0 +1,44 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hero {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #f9c5d1, #fbc2eb);
+  color: #222;
+}
+
+.venue {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.gallery {
+  padding: 50px 20px;
+  background-color: #fdf6f0;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f3e5f5;
+  font-style: italic;
+}
